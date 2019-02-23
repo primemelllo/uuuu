@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.on('ready', () => {console.log(`Logged in as ${client.user.tag}!`);});
+client.on('ready', () => {console.log(`Logged in as ${"NDU1NzM1NTQwMTU1ODA5Nzk0.D1F0GA.zb84mCq8p5QGWP20OiMd4UpfkTs"});
 const config = require('./config.json')
 const prefixac = config.prefix;
 client.on('message', message => {
